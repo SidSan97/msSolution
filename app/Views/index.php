@@ -13,25 +13,7 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 	<script type="text/javascript" src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
 
-	<script type="text/javascript">
-		$(document).ready(function() {
-		    $('#jquery-datatable-ajax-php').DataTable({
-		      	'processing': true,
-		      	'serverSide': true,
-		      	'serverMethod': 'post',
-		      	'ajax': {
-		          	'url':'http://localhost/msSolution/public/Controller/ClientesController.php'
-		      	},
-		      	'columns': [
-		         	{ data: 'nome' },
-		         	{ data: 'email' },
-		         	{ data: 'cpf' },
-		         	{ data: 'data_cadastro' }
-		      	]
-		   });
-
-		} );
-	</script>
+	<script type="text/javascript" src="http://localhost/msSolution/public/Models/ajax.js"></script>
 </head>
 <body>
 	<div class="container mt-5">
