@@ -35,7 +35,7 @@
 </head>
 <body>
 	<div class="container mt-5">
-		<h2 style="margin-bottom: 30px;">jQuery Datatable Ajax PHP Example</h2>
+		<h2 style="margin-bottom: 30px;">Teste MS</h2>
 		<table id="jquery-datatable-ajax-php" class="display" style="width:100%">
 	        <thead>
 	            <tr>
